@@ -1,2 +1,4 @@
+### Description
+This code uses the **MediaPipe** library to perform facial landmark detection on a video stream. The **detection.js** script initializes a face mesh model, configures its options, and sets up a callback function (gotFaces) to handle the detection results. The **sketch.js** script creates a **p5.js** sketch that visualizes the facial landmarks on a canvas. It checks for facial landmarks in the draw function and, if detected, draws points representing the landmarks using the **p5.js** library. The HTML file includes the necessary script references and a video element with the id "video" for capturing the webcam feed. Together, these scripts provide a simple facial landmark detection and visualization using **MediaPipe** and **p5.js**.
 ## Live Link
 <https://facemesh7.netlify.app/>
